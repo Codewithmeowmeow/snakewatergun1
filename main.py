@@ -1,9 +1,5 @@
 import random
-'''
-1== snake
--1== water
-0== gun
-'''
+
 
 # Generate a random choice from the list [-1, 0, 1]
 computer = random.choice([-1, 0, 1])
@@ -38,7 +34,4 @@ else:
         print("something went wrong.")
 
         
-        '''if ((computer-yourchoice)=1 or(computer-yourchoice)=-2))
-        print("you won!")
         
-        ALL THESE LINES OF CODES CAN BE REPLACED BY THESE TWO LINES'''
